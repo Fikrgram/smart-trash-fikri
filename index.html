@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Kontrol Tong Sampah 🚮</title>
+  <title>Smart Trash Control System 🚮</title>
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
@@ -22,9 +22,16 @@
       padding: 2rem;
     }
 
+    img {
+      width: 100px;
+      display: block;
+      margin: 0 auto 20px;
+    }
+
     h1 {
       color: #2c3e50;
-      font-size: 2.5rem;
+      font-size: 2.2rem;
+      margin-bottom: 0.5rem;
     }
 
     h2 {
@@ -67,8 +74,10 @@
   </style>
 </head>
 <body>
-     <img src="kontrol.png" alt="Kontrol Ikon" width="90" style="margin-bottom: 20px;">
-      <h1>Smart Trash Control System</h1> 
+  <!-- Gambar kontrol -->
+  <img src="kontrol.png" alt="Ikon Kontrol">
+
+  <h1>Smart Trash Control System 🚮</h1>
 
   <h2>Servo Control</h2>
   <div class="btn-group">
@@ -83,7 +92,7 @@
     <button onclick="setBuzzer('OFF')">BUZZER OFF</button>
   </div>
 
-  <footer>© Smart Trash System Fikri Hasyim Al Rasyid </footer>
+  <footer>© 2025 Smart Trash System</footer>
 
   <script>
     const firebaseConfig = {
